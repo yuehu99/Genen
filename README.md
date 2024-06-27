@@ -6,7 +6,10 @@ Genen is a project that utilizes Graph Neural Networks (GNNs) to analyze PPI, GO
 
 - `PPI.ipynb`: Uses GCN and GAT to predict gene solubility in the PPI network.
 - `GO.ipynb`: Uses GCN and GAT to predict gene solubility in the GO network.
-- `GO+PPI.ipynb`: Uses GCN and GAT to predict various gene attributes, including:
+- `GO+PPI.ipynb`: Uses GCN and GAT to predict gene solubility in the GO+PPI network and includes hidden node feature testing.
+- `regression.ipynb`: Uses GCN for regression to predict gene conservation.
+- `PPI_hidding.ipynb`: Tests hidden node features in the PPI network.
+- `other.ipynb`: Uses GCN to predict other gene attributes, including:
   - Dosage Sensitivity
   - BivalentVs Lys4 Methylated
   - BivalentVs Non Methylated
@@ -14,16 +17,13 @@ Genen is a project that utilizes Graph Neural Networks (GNNs) to analyze PPI, GO
   - Tf target type
   - Solubility
   - Subcellular localization
-  - Hidden node feature testing
 
-- `regression.ipynb`: Uses GCN for regression to predict gene conservation.
-- `PPI_hidding.ipynb`: Tests hidden node features in the PPI network.
 - `Data/`: Directory containing all the datasets used in this project.
 - `GCN.pth` and `GAT.pth`: Model parameters trained on the GO+PPI network.
 
 ## Results
 
-The prediction accuracy on the GO+PPI network is generally higher compared to the PPI and GO networks. The trained GCN and GAT network parameters are saved in `GCN.pth` and `GAT.pth` files.
+The prediction accuracy on the GO+PPI network for solubility is generally higher compared to the PPI and GO networks. The trained GCN and GAT network parameters are saved in the `GCN.pth` and `GAT.pth` files.
 
 ## Installation and Usage
 
@@ -31,6 +31,7 @@ The prediction accuracy on the GO+PPI network is generally higher compared to th
    ```bash
    git clone https://github.com/yourusername/Genen.git
    cd Genen
+
 ## Data
 All data files are stored in the Data directory. Ensure that the data is correctly placed before running the notebooks.
 ## Contact
