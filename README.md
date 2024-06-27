@@ -18,7 +18,7 @@ Genen is a project that utilizes Graph Neural Networks (GNNs) to analyze PPI, GO
   - Solubility
   - Subcellular localization
 
-- `Data/`: Directory containing all the datasets used in this project.
+- `GNN/`: Directory containing all the datasets used in this project.
 - `GCN.pth` and `GAT.pth`: Model parameters trained on the GO+PPI network.
 
 ## Results
@@ -33,6 +33,6 @@ The prediction accuracy on the GO+PPI network for solubility is generally higher
    cd Genen
 
 ## Data
-All data files are stored in the Data directory. Ensure that the data is correctly placed before running the notebooks.
+All data files are stored in the GNN directory. Ensure that the data is correctly placed before running the notebooks.
 ## Contact
 For any questions or inquiries, please contact yuhu@salud.unm.edu.
