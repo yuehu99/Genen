@@ -33,6 +33,6 @@ The prediction accuracy on the GO+PPI network for solubility is generally higher
    cd Genen
 
 ## Data
-All data files are stored in the GNN directory. Ensure that the data is correctly placed before running the notebooks.
+All data files are stored in the [google drive](https://drive.google.com/drive/folders/1MEtsO0q5-nw6gvtPT2rZJwocCdcSJYxl?usp=sharing). Ensure that the data is correctly placed before running the notebooks.
 ## Contact
 For any questions or inquiries, please contact yuhu@salud.unm.edu.
