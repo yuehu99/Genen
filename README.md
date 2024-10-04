@@ -25,12 +25,5 @@ Genen is a project that utilizes Graph Neural Networks (GNNs) to analyze PPI, GO
 
 The prediction accuracy on the GO+PPI network for solubility is generally higher compared to the PPI and GO networks. The trained GCN and GAT network parameters are saved in the `GCN.pth` and `GAT.pth` files.
 
-## Installation and Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Genen.git
-   cd Genen
-
 ## Data
 All data files are stored in the [google drive](https://drive.google.com/drive/folders/1MEtsO0q5-nw6gvtPT2rZJwocCdcSJYxl?usp=sharing). Ensure that the data is correctly placed before running the notebooks.
